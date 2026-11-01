@@ -1,1 +1,25 @@
+Sistema de Gestion de Inventario y Pedidos (Reto 2)
+
+Este proyecto es un sistema interactivo en Python desarrollado para la gestion de productos, inventarios y pedidos. Implementa programación modular y arreglos unidimensionales organizados en listas paralelas sincronizadas por un indice común.
+
+Funcionalidades Principales
+
+El programa ofrece un menu interactivo en consola con las siguientes funciones:
+
+1. Registrar: Permite ingresar nuevos productos o pedidos agregando su nombre, cantidad y precio a las listas paralelas.
+2. Mostrar: Despliega una tabla ordenada con el indice, nombre, cantidad y precio unitario de cada elemento.
+3. Editar: Permite seleccionar un registro mediante su indice y actualizar sus campos (nombre, cantidad o precio) de forma individual.
+4. Eliminar: Remueve un producto del sistema mediante su indice utilizando el método pop, manteniendo la sincronizacion de las listas.
+5. Salir: Cierra de forma limpia la ejecucion del sistema.
+
+Estructura Modular y Arreglos Paralelos
+
+El sistema se organiza en funciones independientes que operan sobre tres arreglos unidimensionales:
+
+- nombres: Lista para almacenar las descripciones o nombres de los elementos.
+- cantidades: Lista para almacenar los valores enteros de las cantidades.
+- precios: Lista para almacenar los precios unitarios en punto flotante.
+
+Las funciones registrar, mostrar, editar y eliminar reciben estas tres listas como parametros, garantizando modularidad, escalabilidad y buenas practicas de programacion.
+
 
